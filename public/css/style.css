@@ -1,0 +1,233 @@
+body {
+    overflow: hidden
+}
+
+div.item {
+    cursor: move;
+}
+
+#timeline {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 500px;
+    bottom: 0;
+    height: 100%;
+    background-color: #eee;
+    overflow-y: auto;
+}
+
+
+#timeline .inner {
+    width:900px;
+    margin:40px auto;
+    border:1px solid #e7e7e7;
+    background-color: #fff;
+    padding-bottom: 40px;
+}
+#timeline .inner .head {
+    /*margin: 10px;*/
+    padding: 10px;
+    background-color: #fff;
+}
+#timeline .inner .head textarea,
+#timeline .inner .head input {
+    width:98%;
+
+}
+
+#timeline .inner .body ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#timeline .inner .body {
+    border-top:1px solid #e7e7e7;
+}
+
+#timeline .inner .item {
+    width:80%;
+    margin:0 auto;
+    border:1px solid #e7e7e7;
+    border-bottom: 1px solid #C0C1C2;
+    box-shadow:0 1px 0 #e7e7e7;
+    border-radius: 5px;
+    background-color: #fff;
+    padding:10px;
+    position: relative;
+    
+}
+
+#timeline .inner .item .title{
+    margin:0 70px 0 0;
+}
+
+#timeline .inner .item .desc{
+    margin:0 70px 0 0;
+    font-size:85%;
+    line-height: 1.4;
+    color:#999;
+}
+#timeline .inner .item .img{
+    width:60px;
+    position: absolute;
+    top:10px;
+    right:10px;
+}
+
+#timeline .inner .item .icon{
+
+}
+#timeline .inner .item .service{
+}
+
+
+#timeline .inner li.blank {
+    background-color: #fff;
+    height:20px;
+    cursor: pointer;
+}
+#timeline .inner li.blank i{
+    display: none;
+    margin:0 auto ;
+    padding-top: 3px;
+
+}
+#timeline .inner li.blank:hover {
+    background-color: #eee;
+}
+#timeline .inner li.blank:hover i {
+    display: block;
+}
+
+
+
+
+
+
+#source {
+    position: absolute;
+    height: 100%;
+    width: 500px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #fff;
+    border-left: 1px solid #C0C1C2;
+    overflow-y:auto;
+
+}
+#source .inner{
+    margin:40px 0 10px;
+
+}
+
+
+#source .inner .head {
+    padding: 10px;
+    /*background-color: #fff;*/
+
+}
+
+#source .inner .head .tab-content {
+    
+    
+}
+
+#source .inner .head .tab-content .input-prepend {
+
+    width:90%;
+}
+
+#searchInput {
+    width:100%;
+}
+
+
+
+
+#source .inner .body {
+
+    border-top:1px solid #e7e7e7;
+    padding: 10px;
+    /*background-color: #fff;*/
+}
+
+#source .inner .item {
+    margin-top:10px;
+    border:1px solid #e7e7e7;
+    border-bottom: 1px solid #C0C1C2;
+    box-shadow:0 1px 0 #e7e7e7;
+    border-radius: 5px;
+    background-color: #fff;
+    padding:10px;
+    position: relative;
+    
+}
+#source .inner .item:hover {
+
+    background-color: #FFFFDD;
+}
+#source .inner .item .title{
+    margin:0 70px 0 0;
+}
+
+#source .inner .item .desc{
+    margin:0 70px 0 0;
+    font-size:85%;
+    line-height: 1.4;
+    color:#999;
+}
+#source .inner .item .img{
+    width:60px;
+    height: 70px;
+    overflow: hidden;
+    position: absolute;
+    top:10px;
+    right:10px;
+}
+
+#source .inner .item .icon{
+
+}
+#source .inner .item .service{
+}
+#source .inner .item .date{
+    color:#666;
+    font-size:80%;
+    font-family: Verdana;
+    letter-spacing: -1px;
+}   
+#source .inner .bottom {
+    text-align: center;
+    margin: 20px 0;
+}
+#source .inner .bottom .icon-spin{
+    display: block;
+    display:none;
+}
+#source .inner .bottom .nothing{
+    display:none;
+}
+#source .inner .bottom .btn{
+    display:none;
+    width:90%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
